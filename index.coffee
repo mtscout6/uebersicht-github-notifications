@@ -26,7 +26,7 @@ style: """
   }
 
   .enterprise {
-    color: #FFF;
+    color: #E5E5E5;
     background-color: #2A2C2E;
   }
 
