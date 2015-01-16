@@ -2,7 +2,7 @@
 
 Breakdown of GitHub Notifications by Type. For example the first category is mentioned, which will reflect how many notifications are due to you being specifically mentioned.
 
-![Screenshot](http://cl.ly/image/3g3u372Z0r0U/Image%202015-01-16%20at%208.11.42%20AM.png)
+![Screenshot](https://github.com/mtscout6/uebersicht-github-notifications/raw/master/screenshot.png)
 
 ## Installation
 
