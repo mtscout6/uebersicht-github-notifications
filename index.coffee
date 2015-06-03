@@ -18,6 +18,10 @@ style: """
   right: 10px;
   bottom: 10px;
 
+  a:link, a:visited, a:hover, a:active {
+    color: #000
+  }
+
   .github-notifications {
     border: 1px solid #333;
     border-radius: 10px;
@@ -136,7 +140,9 @@ getVisual: (output) ->
     icons.push "<div class='count-group'><span class='octicon'>#{icon[1]}</span>#{count}</div>"
 
   return """
-    <div class='github-notifications #{if @enterprise then "enterprise" else "public"}'>
-      #{icons.join('')}
-    </div>
+    <a href='https://www.github.com/' + @user'>
+      <div class='github-notifications #{if @enterprise then "enterprise" else "public"}'>
+        #{icons.join('')}
+      </div>
+    </a>
   """
