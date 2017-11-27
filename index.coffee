@@ -3,10 +3,14 @@ apiKey        = '<your github auth token here>'
 publicApi     = 'https://api.github.com'
 enterpriseApi = '<your github enterprise api url here>'
 enterprise    = false
+proxyUrl      = '<your https proxy url string here>'
+proxy         = false
 
 api = if enterprise then enterpriseApi else publicApi
 
-cmd = "curl -s --user #{user}:#{apiKey} -s #{api}/notifications"
+proxyCmd = if proxy then "-x #{proxyUrl}" else ""
+
+cmd = "curl -s --user #{user}:#{apiKey} -s #{api}/notifications #{proxyCmd}"
 
 command: cmd
 
