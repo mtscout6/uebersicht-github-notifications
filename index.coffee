@@ -40,10 +40,10 @@ style: """
 
   @font-face {
     font-family: 'octicons';
-    src: url('github-notifications.widget/octicons/octicons.eot?#iefix') format('embedded-opentype'),
-         url('github-notifications.widget/octicons/octicons.woff') format('woff'),
-         url('github-notifications.widget/octicons/octicons.ttf') format('truetype'),
-         url('github-notifications.widget/octicons/octicons.svg#octicons') format('svg');
+    src: url('uebersicht-github-notifications/octicons/octicons.eot?#iefix') format('embedded-opentype'),
+         url('uebersicht-github-notifications/octicons/octicons.woff') format('woff'),
+         url('uebersicht-github-notifications/octicons/octicons.ttf') format('truetype'),
+         url('uebersicht-github-notifications/octicons/octicons.svg#octicons') format('svg');
     font-weight: normal;
     font-style: normal;
   }
