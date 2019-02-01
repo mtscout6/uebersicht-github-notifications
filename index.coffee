@@ -79,6 +79,7 @@ style: """
   }
 
   .count {
+    font-family: Helvetica Neue;
     font-size: 9px;
     background-color: red;
     border-radius: 10px;
